@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weightC.css">
+    <title>Weight Converter</title>
+</head>
+<body>
+    <h1>Weight Converter</h1>
+    <div>
+        <div>
+            <input id="poundInput" type="text" placeholder="enter Pound Value Here">
+        </div>
+
+        <div id="output">
+
+            <button id="clear">Clear</button>
+
+            <div id="gram">Gram:
+                <div id="gramOutput"></div>
+            </div>
+
+            <div id="kilo">Kilogram:
+                <div id="kiloOutput"></div>
+            </div>
+
+            <div id="ounce">Ounces:
+                <div id="ounceOutput"></div>
+            </div>
+        </div>
+    </div>
+        <script>
+            
+            //document.getElementById('output').style.visibility = 'hidden';
+
+            document.getElementById('poundInput').addEventListener('input', function(e){
+
+                //document.getElementById('output').style.visibility = 'visible';
+                let poundInput = e.target.value;
+
+                document.getElementById('gramOutput').innerHTML = poundInput/0.002222046;
+
+                document.getElementById('kiloOutput').innerHTML = poundInput/2.2046;
+
+                document.getElementById('ounceOutput').innerHTML = poundInput*16;
+            });
+
+            
+        
+        </script>
+</body>
+</html>

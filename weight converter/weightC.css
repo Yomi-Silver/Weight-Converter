@@ -1,0 +1,70 @@
+*{
+    align-items: center;
+    color: #fff;    
+    background-color: black;
+    
+}
+h1{ color: #aaa;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+input{
+    
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
+    margin-bottom: 1em;
+    border-radius: 18px;
+    font-size: x-large;
+    color: #eee;
+}
+#clear{
+    border-radius: 8px;
+    color: #fff;
+    padding: 4px;
+    margin-left: 25%;
+    margin-bottom: 1em;
+}
+
+#gram{
+    font-size: x-large;
+    align-items: center;
+    width: 50%;
+    height: 70px;
+    margin-left: 25%;
+    margin-bottom: 1em;
+    border: 2px solid red;
+    background: red;
+    border-radius: 10px;
+    color: #000;
+}
+
+#ounce{
+    font-size: x-large;
+    align-items: center;
+    width: 50%;
+    height: 70px;
+    margin-left: 25%;
+    margin-bottom: 1em;
+    border: 2px solid Green;
+    background: Green;
+    border-radius: 10px;
+    color: #000;
+}
+
+#kilo{
+    font-size: x-large;
+    align-items: center;
+    width: 50%;
+    height: 70px;
+    margin-left: 25%;
+    margin-bottom: 1em;
+    border: 2px solid blue;
+    background: blue;
+    border-radius: 10px;
+    color: #000;
+}
